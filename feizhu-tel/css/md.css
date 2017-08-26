@@ -1,0 +1,19 @@
+.funWeekPicS,
+.funLPL,
+.PH .hot {
+	font-size: .24rem;
+}
+
+.PH {
+	font-size: .26rem;
+	line-height: .2rem;
+}
+.monthC span,
+.monthList a,
+.footer a {
+	font-size: .26rem;
+}
+
+.footer a {
+	line-height: .4rem;
+}

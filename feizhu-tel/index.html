@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<meta name="format-detecation" content="telephone=no, email=no">
+<meta charset="utf-8">
+<title>Document</title>
+<script type="text/javascript">
+(function(){
+	var meta = document.createElement("meta"); //创建一个meta标签，并给他起个名字加meta
+	var scale = 1/window.devicePixelRatio;
+	meta.name = "viewport";// 给meta的name属性设置为"viewport"
+	meta.content = "initial-scale="+scale+",minimum-scale="+scale+",maximum-scale="+scale;
+	document.head.appendChild(meta);// 在head中添加一个元素，这个元素是
+})();
+</script>
+<script type="text/javascript">
+(function(){
+	var html = document.documentElement;
+	var width = html.clientWidth;
+	html.style.fontSize = width /7.5 +"px";
+})()
+</script>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" href="css/md.css" media="(max-width:639px)">
+<link rel="stylesheet" href="css/sm.css" media="(max-width:413px)">
+</head>
+<body>
+<header class="header">
+	<a href="javascript:;" class="drop icons fl">选城市<span><strong>上&nbsp;&nbsp;&nbsp;海</strong><strong>北&nbsp;&nbsp;&nbsp;京</strong></span></a>
+	<form class="search icons fl">
+		<input type="text" class="text"  value="" placeholder="目的地/景点/酒店/门票">
+	</form>
+</header>
+<!-- header End -->
+	<a class="banner">
+		<img src="img/banner.jpg" alt="">
+	</a>
+<!-- banner End -->
+<nav class="nav icons clearFix">
+	<a href="javascript:;" class="air icons"><span>机票</span></a>
+	<a href="javascript:;" class="grogshop icons"><span>酒店客栈</span></a>
+	<a href="javascript:;" class="railway icons"><span>火车票</span></a>
+	<a href="javascript:;" class="car icons"><span>汽车票</span></a>
+	<a href="javascript:;" class="freedom icons"><span>自由行</span></a>
+	<a href="javascript:;" class="travel icons"><span>旅游度假</span></a>
+	<a href="javascript:;" class="rim icons"><span>周边游</span></a>
+	<a href="javascript:;" class="ticket icons"><span>门票</span></a>
+	<a href="javascript:;" class="mileage icons"><span>领里程</span></a>
+	<a href="javascript:;" class="all icons"><span>全部</span></a>
+</nav>
+<!-- nav End -->
+<section class="foreign">
+	<div class="foreignT clearFix">
+		<h2 class="foreignTH icons fl">出境超市</h2>
+		<span class="fl">一站购齐 官方严选 优质保障</span>
+		<a href="javascript:;" class="more fr">更多&gt;</a>
+	</div>
+	<div class="foreignNav clearFix">    <!-- 这部分有更好的写法 -->
+		<a href="javascript:;" class="tTickets icons">
+			<span>旅行机票</span>
+		</a><a href="javascript:;" class="visa icons">
+			<span>签证</span>
+		</a><a href="javascript:;" class="inpuHotel icons">
+			<span>国际酒店</span>
+		</a><a href="javascript:;" class="rentCar icons">
+			<span>租车包车</span>
+		</a><a href="javascript:;" class="transfer icons">
+			<span>接送机</span>
+		</a><a href="javascript:;" class="WiFi icons">
+			<span>WiFi电话卡</span>
+		</a><a href="javascript:;" class="inTicket icons">
+			<span>国际门票</span>
+		</a><a href="javascript:;" class="localPlay icons">
+			<span>当地玩乐</span>
+		</a>
+	</div>
+</section>
+<!-- foreign End -->
+<section class="onSale clearFix">
+	<a href="javascript:;" class="onSaleFZ icons fl">
+		<span class="onSaleTxt icons">
+			尾单捡漏 捡到赚到
+		</span>
+		<span class="onSalePic icons">
+			￥299起
+		</span>
+	</a>
+	<a href="javascript:;" class="onSaleAir icons fl">
+		<span class="onSaleTxt icons">
+			踏春减50
+		</span>
+		<span class="onSalePic icons">
+
+		</span>
+	</a>
+	<a href="javascript:;" class="onSaleHote icons fl">
+		<span class="onSaleTxt icons">
+			下午茶28
+		</span>
+		<span class="onSalePic icons">
+
+		</span>
+	</a>
+</section>
+<!-- onSale End -->
+<section class="funWeek">
+	<div class="foreignT funWeekT clearFix">
+		<h2 class="foreignTH funWeekTH icons fl">出境超市</h2>
+		<a href="javascript:;" class="more fr">更多&gt;</a>
+	</div>
+	<a href="javascript:;" class="funWeekPic">
+		<img src="img/funWeekPic.jpg" alt="">
+		<span class="funWeekTxt">我大杭州这5家奢华小吃2.0，我不信你全吃过！</span>
+		<span class="funWeekPicS clearFix">
+			<span class="Au fl">沈一点</span>
+			<span class="liker icons fr">4</span>
+			<span class="looker icons fr">981</span>
+		</span>
+	</a>
+	<div class="funWeekList">
+		<a href="javascript:;" class="funWeekLP1 clearFix">
+			<img src="img/funWeekLP1.jpg" alt="">
+			<span class="funLPTxt fl">
+				<span class="funLPTit">杭州乐园门票 湘湘宋城 杭州乐园景区门票 成人 学生 亲子 家庭票</span>
+				<span class="funLPPrice fl">
+					￥<span>160</span>
+				</span>
+				<span class="funLPL icons fr">64%的玩家购买了</span>
+			</span>
+		</a><a href="javascript:;" class="funWeekLP2 clearFix">
+			<img src="img/funWeekLP2.jpg" alt="">
+			<span class="funLPTxt fl">
+				<span class="funLPTit">杭州大奇山国家森林公园景区门票 电子票 成人票提前2小时预定</span>
+				<span class="funLPPrice fl">
+					￥<span>55</span>
+				</span>
+				<span class="funLPL icons fr">你可能会喜欢</span>
+			</span>
+		</a><a href="javascript:;" class="funWeekLP3 clearFix">
+			<img src="img/funWeekLP3.jpg" alt="">
+			<span class="funLPTxt fl">
+				<span class="funLPTit">杭州极地海洋公园门票含吉泡泡冰雪村 成人票电子票 当天可定</span>
+				<span class="funLPPrice fl">
+					￥<span>230</span>
+				</span>
+				<span class="funLPL icons fr">你可能会喜欢</span>
+			</span>
+		</a><a href="javascript:;" class="funWeekLP4 clearFix">
+			<img src="img/funWeekLP4.jpg" alt="">
+			<span class="funLPTxt fl">
+				<span class="funLPTit">自动出票 杭州胡雪岩故居大门票</span>
+				<span class="funLPPrice fl">
+					￥<span>18</span>
+				</span>
+				<span class="funLPL icons fr">人气高到爆棚</span>
+			</span>
+		</a><a href="javascript:;" class="funWeekLP5 clearFix">
+			<img src="img/funWeekLP5.jpg" alt="">
+			<span class="funLPTxt last fl">
+				<span class="funLPTit">【当天可定】杭州西溪湿地东区门票+船票 杭州西溪国家湿地公园</span>
+				<span class="funLPPrice fl">
+					￥<span>120</span>
+				</span>
+				<span class="funLPL icons fr">人气高到爆棚</span>
+			</span>
+		</a>
+	</div>
+</section>
+<!-- funWeek End -->
+<section class="fAd">
+	<a href="javascript:;">
+		<img src="img/fAd.jpg" alt="">
+	</a>
+</section>
+<!-- fAd End  -->
+<section class="tour">
+	<div class="foreignT funWeekT tourT clearFix">
+		<h2 class="foreignTH funWeekTH tourTH icons fl">旅行头条</h2>
+		<a href="javascript:;" class="more fr">更多&gt;</a>
+	</div>
+	<div class="tourCont">
+		<a href="javascript:;" class="Tland">
+			<img src="img/Tland.jpg" alt="">
+			<span class="TlandT">4月全世界的背包客都将汇集到曼谷考山路，只为迎接泰国最隆重的“宋干节”！附曼谷详细攻略!</span>
+			<span class="TlandS funWeekPicS clearFix">
+				<span class="Au fl icons">周末去哪玩</span>
+				<span class="liker icons fr">64</span>
+				<span class="looker icons fr">5367</span>
+			</span>
+		</a>
+		<div class="tourMore">
+			<a href="javascript:;" class="shenyang sy">
+				<img src="img/shenyang.jpg" alt="" class="fr">
+				<span class="shenyangT TlandT fl">沈阳新增4条公交线路，东南西北连接了18个景点，出行就更加方便了！</span>
+				<span class="shenyangS funWeekPicS clearFix">
+					<span class="Au fl icons">沈阳周边游V</span>
+					<span class="liker icons fr">1</span>
+					<span class="looker icons fr">7402</span>
+				</span>
+			</a><a href="javascript:;" class="shenyang zhoushan">
+				<img src="img/taiwan.jpg" alt="" class="fr">
+				<span class="shenyangT TlandT fl">好消息！舟山终于要通铁路了！宁波出发不到半小时就能到！去东极岛</span>   <!--  多行超出隐藏 -->
+				<span class="shenyangS funWeekPicS clearFix">
+					<span class="Au fl icons">宁波潮生活</span>
+					<span class="liker icons fr">2</span>
+					<span class="looker icons fr">607</span>
+				</span>
+			</a><a href="javascript:;" class="shenyang quzhou">
+				<img src="img/quzhou.jpg" alt="" class="fr">
+				<span class="shenyangT TlandT fl">衢州吃货们最钟意的面馆，吃完这10家再也不想离开衢州！</span>
+				<span class="shenyangS funWeekPicS clearFix">
+					<span class="Au fl icons">舌尖上的衢州</span>
+					<span class="liker icons fr">2</span>
+					<span class="looker icons fr">4632</span>
+				</span>
+			</a><a href="javascript:;" class="shenyang taiwan">
+				<img src="img/taiwan.jpg" alt="" class="fr">
+				<span class="shenyangT TlandT fl">拼颜值时代，台湾花草系森林餐厅爆红</span>
+				<span class="shenyangS funWeekPicS clearFix">
+					<span class="Au fl icons">台湾自由行</span>
+					<span class="looker icons fr">127</span>
+				</span>
+			</a>
+		</div>
+	</div>
+</section>
+<!-- tour End -->
+<section class="tour play">
+	<div class="foreignT funWeekT tourT clearFix">
+		<h2 class="foreignTH funWeekTH tourTH icons fl">玩+</h2>
+		<a href="javascript:;" class="more fr">更多&gt;</a>
+	</div>
+	<div class="tourCont palyCBox">
+		<div class="playC clearFix">
+			<a href="javascript:;">
+				<img src="img/sea.jpg" alt="">
+				<span class="playT">
+					<strong>海岛</strong>
+					<span>浪花朵朵 苏梅岛越野车环岛赛</span>
+				</span>
+			</a><a href="javascript:;">
+				<img src="img/rive.jpg" alt="">
+				<span class="playT">
+					<strong>自然课堂</strong>
+					<span>九寨沟黄龙3天2晚纯玩</span>
+				</span>
+			</a><a href="javascript:;">
+				<img src="img/sun.jpg" alt="">
+				<span class="playT">
+					<strong>日出日落</strong>
+					<span>七加旅行 大小皇帝岛专业深潜船</span>
+				</span>
+			</a><a href="javascript:;">
+				<img src="img/sea.jpg" alt="">
+				<span class="playT">
+					<strong>海岛</strong>
+					<span>浪花朵朵 苏梅岛越野车环岛赛</span>
+				</span>
+			</a><a href="javascript:;">
+				<img src="img/rive.jpg" alt="">
+				<span class="playT">
+					<strong>自然课堂</strong>
+					<span>九寨沟黄龙3天2晚纯玩</span>
+				</span>
+			</a><a href="javascript:;">
+				<img src="img/sun.jpg" alt="">
+				<span class="playT">
+					<strong>日出日落</strong>
+					<span>七加旅行 大小皇帝岛专业深潜船</span>
+				</span>
+			</a>
+		</div>
+	</div>
+</section>
+<!-- play End -->
+<section class="tour play month">
+	<div class="foreignT funWeekT tourT clearFix">
+		<h2 class="foreignTH funWeekTH tourTH icons fl">本月热门目的地</h2>
+		<a href="javascript:;" class="more fr">更多&gt;</a>
+	</div>
+	<div class="tourCont monthC">
+		<div class="monthCT  clearFix">
+			<a href="javascript:;">
+				<img src="img/japan.jpg" alt="">
+				<strong>日本</strong>
+				<span>唯美和风 浪漫物语</span>
+			</a><a href="javascript:;">
+				<img src="img/sanya.jpg" alt="">
+				<strong>三亚</strong>
+				<span>浪漫沙滩 休闲度假</span>
+			</a><a href="javascript:;">
+				<img src="img/taiguo.jpg" alt="">
+				<strong>泰国</strong>
+				<span>微笑国度 千佛之城</span>
+			</a><a href="javascript:;">
+				<img src="img/hangz.jpg" alt="">
+				<strong>杭州</strong>
+				<span>诗画江南 雅韵西湖</span>
+			</a>
+		</div>
+		<div class="monthList clearFix">
+			<a href="javascript:;">云南</a>
+			<a href="javascript:;">香港</a>
+			<a href="javascript:;">广州</a>
+			<a href="javascript:;">成都</a>
+			<a href="javascript:;">厦门</a>
+			<a href="javascript:;">重庆</a>
+			<a href="javascript:;">马尔代夫</a>
+			<a href="javascript:;">北海道</a>
+			<a href="javascript:;">洛杉矶</a>
+			<a href="javascript:;">清迈</a>
+			<a href="javascript:;">上海</a>
+			<a href="javascript:;">新加坡</a>
+		</div>
+	</div>
+</section>
+<!-- month End -->
+<section class="tour play month think">
+	<div class="foreignT funWeekT tourT clearFix">
+		<h2 class="foreignTH funWeekTH tourTH icons fl">猜你喜欢</h2>
+	</div>
+	<div class="tourCont thinkC clearFix">
+		<div class="thinkList">
+			<a href="javascript:;">
+				<img src="img/maerdaifu.jpg" alt="">
+				<span class="thinkT">
+					<strong>
+						【海洋国旅】马尔代夫旅游神仙珊瑚岛旅行自由行蜜月酒店代理
+					</strong>
+					<span class="PH clearFix">
+						<span class="price fl"><span>￥</span>16299</span>
+						<span class="hot fr">11569人已买</span>
+					</span>
+				</span>
+				<span class="Abso">
+					<span class="place">马尔代夫</span><span class="way">自由行</span>
+				</span>
+			</a><a href="javascript:;">
+				<img src="img/guiling.jpg" alt="">
+				<span class="thinkT">
+					<strong>
+						桂林阳朔旅游纯玩团龙脊漓江三星豪华外事游船4天3晚四日游品质团
+					</strong>
+					<span class="PH clearFix">
+						<span class="price fl"><span>￥</span>1099</span>
+						<span class="hot fr">11569人已买</span>
+					</span>
+				</span>
+				<span class="Abso">
+					<span class="place">桂林</span><span class="way">跟团游</span>
+				</span>
+			</a><a href="javascript:;">
+				<img src="img/haerb.jpg" alt="">
+				<span class="thinkT">
+					<strong>
+						飞猪专线 哈尔滨旅游 东北雪乡长白山雾凇亚布力滑雪7日6晚跟团游
+					</strong>
+					<span class="PH clearFix">
+						<span class="price fl"><span>￥</span>3699</span>
+						<span class="hot fr">11569人已买</span>
+					</span>
+				</span>
+				<span class="Abso">
+					<span class="place">白山</span><span class="way">跟团游</span>
+				</span>
+			</a><a href="javascript:;">
+				<img src="img/guiz.jpg" alt="">
+				<span class="thinkT">
+					<strong>
+						贵州旅游 黄果树瀑布 西江千户苗寨5天4晚跟团游升级1晚五星酒店L
+					</strong>
+					<span class="PH clearFix">
+						<span class="price fl"><span>￥</span>1599</span>
+						<span class="hot fr">11569人已买</span>
+					</span>
+				</span>
+				<span class="Abso">
+					<span class="place">黔东南</span><span class="way">跟团游</span>
+				</span>
+			</a>
+		</div>
+	</div>
+</section>
+<!-- think End -->
+<footer class="footer">
+	<a href="index.html" class="ind icons">首页</a>
+	<a href="javascript:;" class="find icons">发现</a>
+	<a href="javascript:;" class="bourn icons">目的地</a>
+	<a href="javascript:;" class="route icons">行程</a>
+</footer>
+<!-- footer End -->
+<a href="#" class="fixed icons">顶部</a>
+</body>
+</html>

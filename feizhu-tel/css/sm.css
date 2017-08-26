@@ -1,0 +1,90 @@
+.header,
+.drop,
+.search {
+	height: .9rem;
+}
+.drop,
+.search .text {
+	font-size: .28rem;
+}
+
+.nav {
+	height: 3.52rem;
+}
+.nav a {
+	font-size: .3rem;
+	line-height: .7rem;
+}
+.foreignT span {
+	font-size: .3rem;
+}
+.foreignT .more {
+	font-size: .32rem;
+}
+.funWeekTxt {
+	font-size: .32rem;	
+	line-height: .6rem;
+}
+.funWeekPicS,
+.funLPL,
+.PH .hot {
+	font-size: .32rem;
+}
+.funWeekPicS {
+	height: .38rem;
+}
+.funLPTit {
+	margin-bottom: .56rem;
+	font-size: .32rem;
+	line-height: .38rem;
+}
+.shenyangT {
+	margin-bottom: .3rem;
+	line-height: .38rem;
+	height: .78rem;
+}
+.funWeekPicS {
+	padding-top: .08rem;
+	line-height: .28rem;
+}
+.play h2 {
+	font-size: .34rem;
+}
+.playT strong {
+	font-size: .32rem;
+}
+.playT span {
+	font-size: .3rem;
+}
+.monthC strong {
+	font-size: .36rem;
+	line-height: .44rem;
+}
+.monthC span {
+	font-size: .34rem;
+	line-height: .4rem;
+}
+.monthList a {
+	font-size: .32rem;
+}
+.Abso .place,
+.Abso .way {
+	font-size: .3rem;
+}
+.thinkT strong {
+	font-size: .32rem;
+	line-height: .4rem;
+}
+.PH .price {
+	width: 36%;
+}
+.PH .hot {
+	width: 58%;
+}
+.PH {
+	line-height: .3rem;
+}
+.footer a {
+	font-size: .3rem;
+	line-height: .46rem;
+}
